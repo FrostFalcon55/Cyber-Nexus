@@ -1308,19 +1308,40 @@ a:focus-visible {
   flex-shrink: 0;
 }
 
-/* Hero logo */
-.hero-logo {
+/* Hero logo — dual layout */
+.hero-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
   margin-bottom: 1rem;
 }
+.hero-logos-divider {
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, transparent, var(--cyan), transparent);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
 .hero-logo-img {
-  width: auto;
   height: clamp(72px, 12vw, 110px);
+  width: auto;
   object-fit: contain;
   border-radius: var(--radius);
   background: rgba(255,255,255,0.06);
   padding: 6px;
-  margin: 0 auto;
   filter: drop-shadow(0 0 12px rgba(0,245,255,0.5));
+}
+
+/* About dept card logo */
+.about-dept-logo {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.06);
+  padding: 4px;
+  filter: drop-shadow(0 0 8px rgba(0,245,255,0.35));
 }
 
 /* Footer logo */
