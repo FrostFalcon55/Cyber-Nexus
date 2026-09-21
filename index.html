@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CYBER NEXUS '26 — State Level Inter Collegiate Meet organized by Dept. of Cloud Computing & Cyber Security, NMSSVN College, Madurai. 30th September 2026." />
+  <title>CYBER NEXUS '26 | NMSSVN College, Madurai</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== MATRIX CANVAS BACKGROUND ========== -->
+  <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-brand">
+      <span class="nav-logo" aria-label="Cyber Nexus logo">&#x2B22;</span>
+      <span class="nav-title">CYBER NEXUS <span class="accent-cyan">'26</span></span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-menu" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home"         class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about"        class="nav-link" data-section="about">About</a></li>
+        <li><a href="#events"       class="nav-link" data-section="events">Events</a></li>
+        <li><a href="#prizes"       class="nav-link" data-section="prizes">Prizes</a></li>
+        <li><a href="#instructions" class="nav-link" data-section="instructions">Instructions</a></li>
+        <li><a href="#contact"      class="nav-link" data-section="contact">Contact</a></li>
+        <li><a href="#register"     class="nav-link nav-cta" data-section="register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="college-name reveal">Nadar Mahajana Sangam S. Vellaichamy Nadar College</p>
+        <p class="college-sub reveal">Autonomous | NAAC 'A' Grade | ISO 9001:2015 | Affiliated to Madurai Kamaraj University</p>
+        <p class="dept-name reveal">Department of Cloud Computing &amp; Cyber Security</p>
+        <p class="presents reveal">— PRESENTS —</p>
+        <h1 class="glitch-title" id="hero-title" data-text="CYBER NEXUS '26">CYBER NEXUS '26</h1>
+        <p class="hero-subtitle reveal">State Level Inter Collegiate Meet</p>
+
+        <div class="hero-meta reveal">
+          <div class="hero-meta-item">
+            <span class="meta-icon" aria-hidden="true">&#128197;</span>
+            <span><strong>30<sup>th</sup> September 2026</strong></span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="meta-icon" aria-hidden="true">&#128336;</span>
+            <span><strong>8:30 AM onwards</strong></span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="meta-icon" aria-hidden="true">&#127979;</span>
+            <span><strong>NMSSVN College Campus, Nagamalai, Madurai</strong></span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="meta-icon" aria-hidden="true">&#128179;</span>
+            <span><strong>Registration Fee: &#8377;150 / Participant</strong></span>
+          </div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-wrapper reveal" aria-label="Countdown to event">
+          <div class="countdown-block">
+            <span class="countdown-num" id="cd-days">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-block">
+            <span class="countdown-num" id="cd-hours">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-block">
+            <span class="countdown-num" id="cd-minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-block">
+            <span class="countdown-num" id="cd-seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+
+        <a href="#register" class="btn-primary reveal" aria-label="Register for Cyber Nexus 26">
+          <span class="btn-glow"></span>
+          Register Now
+        </a>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>&#8595;</span> Scroll to explore
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="about-heading">
+          <span class="accent-cyan">//</span> ABOUT
+        </h2>
+        <div class="about-grid">
+          <div class="about-card reveal card-glow">
+            <div class="about-card-icon" aria-hidden="true">&#127979;</div>
+            <h3>NMSSVN College</h3>
+            <p>
+              Nadar Mahajana Sangam S. Vellaichamy Nadar College, Nagamalai, Madurai, is a reputed autonomous institution
+              affiliated to Madurai Kamaraj University. Accredited with <strong>NAAC 'A' Grade</strong> and certified under
+              <strong>ISO 9001:2015</strong>, the institution is known for academic excellence, state-of-the-art infrastructure,
+              and a learner-centric environment that nurtures innovation, discipline, and holistic development across disciplines.
+            </p>
+          </div>
+          <div class="about-card reveal card-glow" style="animation-delay:0.15s">
+            <div class="about-card-icon" aria-hidden="true">&#128187;</div>
+            <h3>Department of Cloud Computing &amp; Cyber Security</h3>
+            <p>
+              The department is dedicated to shaping the next generation of technology professionals. With a curriculum encompassing
+              <strong>Cloud Computing, Network Security, Cryptography, Ethical Hacking,</strong> and <strong>Secure System Design</strong>,
+              students are equipped with both theoretical foundations and hands-on expertise. Graduates pursue careers as
+              <em>Cloud Engineers, Cyber Security Analysts, Security Consultants,</em> and more — ready to defend and drive
+              the digital world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CHIEF GUEST ========== -->
+    <section id="chief-guest" class="section section-alt" aria-labelledby="cg-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="cg-heading">
+          <span class="accent-magenta">//</span> CHIEF GUEST
+        </h2>
+        <div class="cg-card reveal card-glow">
+          <div class="cg-avatar" aria-hidden="true">
+            <span class="cg-initials">MS</span>
+          </div>
+          <div class="cg-info">
+            <h3 class="cg-name">Dr. M. Sumathi</h3>
+            <p class="cg-qual">M.Sc., Ph.D.</p>
+            <p class="cg-role">Principal</p>
+            <p class="cg-institution">Government Arts and Science College, Srivilliputhur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EVENTS ========== -->
+    <section id="events" class="section" aria-labelledby="events-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="events-heading">
+          <span class="accent-green">//</span> EVENTS
+        </h2>
+        <p class="section-desc reveal">Click any event card to view full details &amp; rules.</p>
+
+        <div class="events-grid" role="list">
+
+          <!-- Event 1: Pixel Forge -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Pixel Forge event — click for details"
+            data-event="pixel-forge">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#127912;</span>
+            </div>
+            <h3 class="event-name">Pixel Forge</h3>
+            <p class="event-tag">Design &amp; Creative</p>
+          </article>
+
+          <!-- Event 2: Debug Dash -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Debug Dash event — click for details"
+            data-event="debug-dash">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#128027;</span>
+            </div>
+            <h3 class="event-name">Debug Dash</h3>
+            <p class="event-tag">Debugging in C++</p>
+          </article>
+
+          <!-- Event 3: Gaming Knight -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Gaming Knight event — click for details"
+            data-event="gaming-knight">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#9822;</span>
+            </div>
+            <h3 class="event-name">Gaming Knight</h3>
+            <p class="event-tag">Free Fire</p>
+          </article>
+
+          <!-- Event 4: Your Stage Your Rules -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Your Stage Your Rules event — click for details"
+            data-event="your-stage">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#127981;</span>
+            </div>
+            <h3 class="event-name">Your Stage, Your Rules</h3>
+            <p class="event-tag">As You Like It</p>
+          </article>
+
+          <!-- Event 5: Papershere -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Papershere Paper Presentation event — click for details"
+            data-event="papershere">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#128196;</span>
+            </div>
+            <h3 class="event-name">Papershere</h3>
+            <p class="event-tag">Paper Presentation</p>
+          </article>
+
+          <!-- Event 6: Brainwave Quiz -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Brainwave Quiz event — click for details"
+            data-event="brainwave">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#129504;</span>
+            </div>
+            <h3 class="event-name">Brainwave Quiz</h3>
+            <p class="event-tag">Brain Blast – Technical Quiz</p>
+          </article>
+
+          <!-- Event 7: Web Wizard -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="Web Wizard event — click for details"
+            data-event="web-wizard">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#129497;</span>
+            </div>
+            <h3 class="event-name">Web Wizard</h3>
+            <p class="event-tag">Web Designing</p>
+          </article>
+
+          <!-- Event 8: AD MAD -->
+          <article class="event-card reveal" role="listitem" tabindex="0"
+            aria-haspopup="dialog" aria-label="AD MAD Digital Marketing event — click for details"
+            data-event="ad-mad">
+            <div class="event-hex" aria-hidden="true">
+              <span class="event-icon">&#128226;</span>
+            </div>
+            <h3 class="event-name">AD MAD</h3>
+            <p class="event-tag">Digital Marketing</p>
+          </article>
+
+        </div><!-- /events-grid -->
+      </div>
+    </section>
+
+    <!-- ========== PRIZES ========== -->
+    <section id="prizes" class="section section-alt" aria-labelledby="prizes-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="prizes-heading">
+          <span class="accent-gold">//</span> CHAMPION'S PODIUM
+        </h2>
+        <p class="section-desc reveal">Prizes await the best of the best.</p>
+
+        <div class="prizes-grid">
+          <div class="prize-card prize-silver reveal">
+            <div class="prize-rank" aria-hidden="true">&#129352;</div>
+            <div class="prize-label">2<sup>nd</sup> Prize</div>
+            <div class="prize-amount">&#8377;2,000</div>
+          </div>
+          <div class="prize-card prize-gold reveal" style="animation-delay:0.1s">
+            <div class="prize-rank" aria-hidden="true">&#127942;</div>
+            <div class="prize-label">1<sup>st</sup> Prize</div>
+            <div class="prize-amount">&#8377;4,000</div>
+          </div>
+          <div class="prize-card prize-bronze reveal" style="animation-delay:0.2s">
+            <div class="prize-rank" aria-hidden="true">&#129353;</div>
+            <div class="prize-label">3<sup>rd</sup> Prize</div>
+            <div class="prize-amount">&#8377;1,000</div>
+          </div>
+        </div>
+
+        <div class="special-prize reveal">
+          <div class="special-prize-inner card-glow">
+            <span class="special-icon" aria-hidden="true">&#127918;</span>
+            <div>
+              <h3>Special Prize — Gaming Knight</h3>
+              <p class="prize-amount accent-cyan">&#8377;2,000 <span class="prize-sublabel">First Prize</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INSTRUCTIONS ========== -->
+    <section id="instructions" class="section" aria-labelledby="instr-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="instr-heading">
+          <span class="accent-cyan">//</span> GENERAL INSTRUCTIONS
+        </h2>
+        <ul class="instructions-list" role="list">
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Only <strong>undergraduate students</strong> are eligible to participate.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Carry your <strong>college ID card</strong> or a <strong>bonafide certificate</strong> (any one).</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Each participant is allowed in <strong>only one event</strong> (all events run simultaneously).</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Registration fee is <strong>&#8377;150 per participant</strong>.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Report by <strong>8:30 AM</strong> at the main auditorium.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span><strong>Participation certificates</strong> will be provided to all participants.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Participants must bring their own <strong>costumes/accessories</strong> as required.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span><strong>Punctuality</strong> is highly appreciated.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span><strong>Lunch</strong> will be provided to students and <strong>one accompanying staff member</strong>.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>All participants must be accompanied by a <strong>staff coordinator</strong> from their respective college.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Follow proper <strong>dress code</strong> throughout the event.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>Vulgarity in any form (lyrics, content, performance) will lead to <strong>immediate disqualification</strong>.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span><strong>No TA/DA</strong> claims will be entertained.</li>
+          <li class="instr-item reveal"><span class="instr-check" aria-hidden="true">&#9654;</span>The <strong>judges' decision is final</strong>. Any violation of rules will result in disqualification.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section section-alt" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="contact-heading">
+          <span class="accent-magenta">//</span> ORGANIZING TEAM
+        </h2>
+        <div class="contact-cards">
+          <div class="contact-card reveal card-glow">
+            <div class="contact-role">Organizing Secretary</div>
+            <div class="contact-name">Mr. T. Ram Baskar</div>
+          </div>
+          <div class="contact-card reveal card-glow" style="animation-delay:0.1s">
+            <div class="contact-role">Convener</div>
+            <div class="contact-name">Ms. K. Suganya</div>
+            <a href="tel:+918754971890" class="contact-phone" aria-label="Call Ms. K. Suganya">
+              <span aria-hidden="true">&#128222;</span> 8754971890
+            </a>
+          </div>
+          <div class="contact-card reveal card-glow" style="animation-delay:0.2s">
+            <div class="contact-role">Co-Convener</div>
+            <div class="contact-name">Mrs. A. Gomathi</div>
+            <a href="tel:+917868098367" class="contact-phone" aria-label="Call Mrs. A. Gomathi">
+              <span aria-hidden="true">&#128222;</span> 7868098367
+            </a>
+          </div>
+        </div>
+
+        <div class="faculty-credits reveal">
+          <h3 class="credits-heading">Under the Guidance of</h3>
+          <div class="credits-list">
+            <span>Principal</span>
+            <span>Vice Principal</span>
+            <span>Director – SF</span>
+            <span>President</span>
+            <span>Vice-President</span>
+            <span>Secretary &amp; Correspondent</span>
+            <span>Joint Secretary</span>
+            <span>Treasurer</span>
+            <span>Academic Chief</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== REGISTER ========== -->
+    <section id="register" class="section" aria-labelledby="register-heading">
+      <div class="container">
+        <h2 class="section-title reveal" id="register-heading">
+          <span class="accent-green">//</span> REGISTER
+        </h2>
+        <div class="register-box reveal card-glow">
+          <p class="register-desc">
+            Secure your spot at CYBER NEXUS '26! Fill in the registration form before the deadline.
+          </p>
+          <div class="register-deadline">
+            <span class="deadline-icon" aria-hidden="true">&#9888;</span>
+            <span>Last Date for Online Registration: <strong>28<sup>th</sup> September 2026</strong></span>
+          </div>
+          <div class="register-actions">
+            <a href="#register-link"
+               id="register-form-link"
+               class="btn-primary btn-large"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Open registration Google Form in a new tab">
+              <span class="btn-glow"></span>
+              &#128279; Open Registration Form
+            </a>
+          </div>
+          <div class="qr-section">
+            <div class="qr-placeholder" role="img" aria-label="QR code placeholder for registration form">
+              <div class="qr-inner">
+                <div class="qr-pattern" aria-hidden="true">
+                  <div class="qr-corner qr-tl"></div>
+                  <div class="qr-corner qr-tr"></div>
+                  <div class="qr-corner qr-bl"></div>
+                  <div class="qr-dots" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="qr-label">QR Code</p>
+                <p class="qr-sublabel">Scan to Register</p>
+              </div>
+            </div>
+          </div>
+          <p class="register-fee">
+            <span class="accent-cyan">&#8377;150</span> registration fee per participant &bull;
+            Payable at venue / as instructed in form
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo" aria-hidden="true">&#x2B22;</div>
+          <p class="footer-title">CYBER NEXUS <span class="accent-cyan">'26</span></p>
+          <p class="footer-college">Nadar Mahajana Sangam S. Vellaichamy Nadar College</p>
+          <p class="footer-address">
+            <span aria-hidden="true">&#128205;</span>
+            Nagamalai, Madurai &ndash; 625 002, Tamil Nadu
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h4 class="footer-nav-title">Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#prizes">Prizes</a></li>
+            <li><a href="#instructions">Instructions</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#register">Register</a></li>
+          </ul>
+        </nav>
+        <div class="footer-event">
+          <h4 class="footer-nav-title">Event Details</h4>
+          <p>&#128197; 30<sup>th</sup> September 2026</p>
+          <p>&#128336; 8:30 AM onwards</p>
+          <p>&#127979; NMSSVN College Campus</p>
+          <p>&#128179; Fee: &#8377;150 / participant</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dept. of Cloud Computing &amp; Cyber Security, NMSSVN College, Madurai. All rights reserved.</p>
+        <p class="footer-tagline accent-cyan">// HACK THE FUTURE. DEFEND THE PRESENT. //</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== EVENT MODAL ========== -->
+  <div id="event-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Close event details">&#10005;</button>
+      <div class="modal-header">
+        <span class="modal-icon" id="modal-icon" aria-hidden="true"></span>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <p class="modal-tag" id="modal-tag"></p>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
